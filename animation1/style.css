@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.box, .box1, .box2, .box3, .box4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    border: 2px solid white;
+    transform-origin: center;
+    border-radius: 20px;
+}
+
+.box  { background: rgb(235, 191, 213); }
+.box1 { background: rgb(235, 156, 196); }
+.box2 { background: rgb(252, 106, 179); }
+.box3 { background: rgb(231, 33, 132); }
+.box4 { background: rgb(240, 9, 182); }
