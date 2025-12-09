@@ -9,7 +9,7 @@ gsap.from(".page1 .box", {
         trigger: ".page1 .box",
         start: "top 80%",
         end: "top 20%",
-        markers: true,
+        // markers: true,
         scrub: true,
     }
 });
@@ -21,7 +21,7 @@ gsap.to(".page2 h1", {
         trigger: ".page2",
         start: "top top",
         end: "bottom top",     // stops pin when Page2 leaves
-        markers: true,
+        // markers: true,
         scrub: true,
         pin: true
     }
@@ -35,7 +35,7 @@ gsap.from(".page3 .box", {
         trigger: ".page3 .box",
         start: "top 80%",
         end: "top 20%",
-        markers: true,
+        // markers: true,
         scrub: true
     }
 });
