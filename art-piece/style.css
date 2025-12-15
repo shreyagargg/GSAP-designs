@@ -1,0 +1,22 @@
+:root {
+    --pastel-pink: #FFD1DC;
+    --pastel-blue: #A7C6ED;
+    --pastel-green: #B2E0B2;
+    --pastel-yellow: #FDFD96;
+    --pastel-purple: #EAB8E4;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--pastel-blue);
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: var(--pastel-pink);
+}
+
+/* body { margin: 0; overflow: hidden; background-color: #f0f0f0; } */
+canvas { display: block; }
